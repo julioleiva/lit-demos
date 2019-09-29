@@ -8,6 +8,7 @@ import './06-light-dom.js';
 import './07-reflecting-attributes.js';
 import './08-dynamic-repeated-templates.js';
 import './09-slotting.js';
+import './09-slottingj.js';
 
 class IntermediateDemos extends LitElement {
   static get properties() {
@@ -136,6 +137,13 @@ class IntermediateDemos extends LitElement {
         <div class="demo">
           <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F09-slotting.js" target="_blank"><h2>09 Slotting</h2></a>
           <slotting-demo></slotting-demo>
+        </div>
+      </paper-card>
+
+      <paper-card>
+        <div class="demo">
+          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F09-slotting.js" target="_blank"><h2>09 Slotting</h2></a>
+          <slotting-j></slotting-j>
         </div>
       </paper-card>
     `;

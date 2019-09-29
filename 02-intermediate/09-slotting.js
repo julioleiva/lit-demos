@@ -7,6 +7,15 @@ class Slotting extends LitElement {
         <h1 slot="title">Hello universe</h1>
         <p slot="details">This is some text</p>
         <p>any other content</p>
+        <p>any other content</p>
+        <p>any other content</p>
+        <p>any other content</p>
+        <p>any other content</p>
+        <p>any other content</p>
+        <p>any other content</p>
+        <p>any other content</p>
+        <p>any other content</p>
+        <p>any other content</p>
       </card-element>
     `; 
   }
@@ -20,7 +29,7 @@ class CardElement extends LitElement {
       <div class="card-wrapper">
         <slot name="title"></slot>
         <slot name="details"></slot>
-        <slot></slot>
+        <!-- <slot></slot> -->
       </div>
     `;
   }
