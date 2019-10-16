@@ -4,6 +4,7 @@ import './02-until-directive.js';
 import './03-template-wrapping.js';
 import './04-shared-templates.js';
 import './05-shared-styles.js';
+import './05-shared-styles-j.js';
 import './06-external-template.js';
 import './07-template-factories.js';
 import './08-should-update.js';
@@ -91,6 +92,13 @@ class AdvancedDemos extends LitElement {
         <div class="demo">
           <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=03-advanced%2F05-shared-styles.js" target="_blank"><h2>05 Shared styles</h2></a>
           <shared-styles></shared-styles>
+        </div>
+      </paper-card>
+
+      <paper-card>
+        <div class="demo">
+          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=03-advanced%2F05-shared-styles.js" target="_blank"><h2>05 Shared styles</h2></a>
+          <shared-styles-j></shared-styles-j>
         </div>
       </paper-card>
 
